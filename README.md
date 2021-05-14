@@ -12,8 +12,10 @@ El objetivo del siguiente trabajo es lograr comparar la performance entre una Ba
 * DOCKER
 * DOCKER COMPOSE
 * POSTGRES
+* PGADMIN4
 * ELASTICSEARCH
 * LOGSTASH
+* KIBANA
 
 ### PASOS
 
