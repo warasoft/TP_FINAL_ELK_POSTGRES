@@ -30,9 +30,14 @@ Continuamos con la instalación de docker-compose
 
 ) Crear archivo docker-compose para levantar postgres + pgadmin4 web
   - archivo docker-compose.yml
+
 ) Levantamos el docker-compose (postgres, pgadmin4 web)
+  - docker-compose up
 
 ) Clonar del siguiente repositorio el siguiente archivo DockerFile
   - https://github.com/deviantony/docker-elk.git
   - Extraer el contenido en un lugar de facil acceso (/Escritorio)
+
 ) Levantamos el docker-compose (elasticsearch, kibana, logstash)
+  - docker-compose up
+
