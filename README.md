@@ -1,5 +1,5 @@
 # CAPTURA Y ALMACENAMIENTO DE DATOS
-## TP FINAL
+## Trabajo Práctico
 ### OBJETIVOS
 El objetivo del siguiente trabajo es lograr comparar la performance entre una Base de Datos Relacional ***POSTGRESQL***, y herramientas alternativas de explotación de datos como por ejemplo ***ELASTICSEARCH***.
 
