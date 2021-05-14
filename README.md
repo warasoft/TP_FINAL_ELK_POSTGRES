@@ -17,6 +17,8 @@ El objetivo del siguiente trabajo es lograr comparar la performance entre una Ba
 
 ### PASOS
 
+
+
 ) Para obtener una versión estable de Docker debemos de actualizar los repositorios del Sistema Ubuntu. Aunque para obtener la última versión debemos añadir el repositorio oficial de docker, para ello podemos seguir la guía oficial de docker.
 
 - sudo apt-get update
@@ -28,16 +30,12 @@ Lo siguiente a realizar es la instalación del programa docker, para ello debemo
 Continuamos con la instalación de docker-compose
 - sudo apt-get install docker-compose
 
-) Crear archivo docker-compose para levantar postgres + pgadmin4 web
-  - archivo docker-compose.yml
-
-) Levantamos el docker-compose (postgres, pgadmin4 web)
-  - docker-compose up
-
-) Clonar del siguiente repositorio el siguiente archivo DockerFile
-  - https://github.com/deviantony/docker-elk.git
+) Descargar el archivo comprido "docker-elk-main.zip"
   - Extraer el contenido en un lugar de facil acceso (/Escritorio)
 
-) Levantamos el docker-compose (elasticsearch, kibana, logstash)
+) Levantamos el docker-compose (elasticsearch, kibana, logstash, postgres, pgadmin4)
   - docker-compose up
 
+### ENLACES DE INTERES
+
+- https://github.com/deviantony/docker-elk.git
