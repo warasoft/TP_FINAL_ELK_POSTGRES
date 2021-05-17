@@ -43,10 +43,10 @@ Continuamos con la instalación de docker-compose
 
 Para preparar el ambiente de trabajo se tomó como base un proyecto del repositorio [Docker-elk](http://github.com/deviantony/docker-elk.git). 
 
-  3.a) Descargar el archivo comprido "docker-elk-main.zip", el mismo se encuentra en la raíz del repositorio.
-  3.b) Extraer el contenido en un lugar de facil acceso (Ejemplo: /Escritorio).
-  3.b) Abril al directorio "docker-elk-main" en una terminal (Ejemplo: j@jlinux:~/Escritorio/docker-elk-main$ )
-  3.c) Ejecutar el comando docker-compose (sudo docker-compose up).
+  * 3.a) Descargar el archivo comprido "docker-elk-main.zip", el mismo se encuentra en la raíz del repositorio.
+  * 3.b) Extraer el contenido en un lugar de facil acceso (Ejemplo: /Escritorio).
+  * 3.b) Abril al directorio "docker-elk-main" en una terminal (Ejemplo: j@jlinux:~/Escritorio/docker-elk-main$ )
+  * 3.c) Ejecutar el comando docker-compose (sudo docker-compose up).
 
 ### EVALUACION Y PROPUESTA
 
