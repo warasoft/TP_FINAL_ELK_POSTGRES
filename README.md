@@ -64,7 +64,7 @@ Continuando con la creación del ambiente de trabajo, se procede a levantar todo
 
 4) Creación e importacion de la Base de datos Postgres
 
-<img src="https://github.com/warasoft/tp_final/blob/main/creacion%20de%20base%20de%20datos.gif" style="max-width: 100%">
+<img src="https://github.com/warasoft/tp_final/blob/main/bd%20creator.gif" style="max-width: 100%">
 
 ### EVALUACION Y PROPUESTA
 
