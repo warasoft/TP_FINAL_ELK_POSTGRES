@@ -5,20 +5,22 @@ El objetivo del siguiente trabajo es lograr comparar la performance entre una Ba
 
 ### CONTENIDOS
 
-1. [HERRAMIENTAS](#HERRAMEINTAS)
+1. [INTRODUCCIÓN Y ANTECEDENTES](#HERRAMEINTAS)
+2. [HERRAMIENTAS RELACIONADAS](#HERRAMEINTAS)
+3. [PASOS PARA IMPLEMENTACIÓN](#PASOS)
+4. [EVALUACIÓN PROPUESTA](#PROPUESTA)
 
-### HERRAMIENTAS
+### HERRAMIENTAS RELACIONADAS
 * S.O. UBUNTU 20.04
 * DOCKER
 * DOCKER COMPOSE
 * POSTGRES
-* PGADMIN4
+* PGADMIN4 WEB
 * ELASTICSEARCH
 * LOGSTASH
 * KIBANA
 
-### PASOS
-
+### PASOS PARA IMPLEMENTACIÓN
 
 
 ) Para obtener una versión estable de Docker debemos de actualizar los repositorios del Sistema Ubuntu. Aunque para obtener la última versión debemos añadir el repositorio oficial de docker, para ello podemos seguir la guía oficial de docker.
