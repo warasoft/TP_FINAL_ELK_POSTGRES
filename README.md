@@ -25,7 +25,7 @@ El objetivo del siguiente trabajo es lograr comparar la performance entre una Ba
 
 ### PASOS PARA IMPLEMENTACION
 
-) Para obtener una versión estable de Docker debemos de actualizar los repositorios del Sistema Ubuntu. Aunque para obtener la última versión debemos añadir el repositorio oficial de docker, para ello podemos seguir la guía oficial de docker.
+1) Para obtener una versión estable de Docker debemos de actualizar los repositorios del Sistema Ubuntu. Aunque para obtener la última versión debemos añadir el repositorio oficial de docker, para ello podemos seguir la guía oficial de docker (#enlaces-de-interes).
 
 - sudo apt-get update
 
