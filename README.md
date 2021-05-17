@@ -46,8 +46,8 @@ Para preparar el ambiente de trabajo se tomó como base un proyecto del reposito
 Modificaciones puntuales:
   . kibana: directorio: j@jlinux:~/Escritorio/docker-elk-main/kibana/config$
             archivo: kibana.yml 
-              *elasticsearch.username: test
-              *elasticsearch.password: test
+              - *elasticsearch.username: test
+              - *elasticsearch.password: test
 
   * 3.a) Descargar el archivo comprido "docker-elk-main.zip", el mismo se encuentra en la raíz del repositorio.
   * 3.b) Extraer el contenido en un lugar de facil acceso (Ejemplo: /Escritorio).
