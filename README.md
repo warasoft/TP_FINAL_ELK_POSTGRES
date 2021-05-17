@@ -11,7 +11,7 @@ El objetivo del siguiente trabajo es lograr comparar la performance entre una Ba
 4. [EVALUACION Y PROPUESTA](#EVALUACION-Y-PROPUESTA)
 5. [ENLACES DE INTERES](#ENLACES-DE-INTERES)
 
-### INTRODUCCIÓN Y ANTECEDENTES
+### INTRODUCCION Y ANTECEDENTES
 
 ### HERRAMIENTAS RELACIONADAS
 * S.O. UBUNTU 20.04
@@ -23,7 +23,7 @@ El objetivo del siguiente trabajo es lograr comparar la performance entre una Ba
 * LOGSTASH
 * KIBANA
 
-### PASOS PARA IMPLEMENTACIÓN
+### PASOS PARA IMPLEMENTACION
 
 ) Para obtener una versión estable de Docker debemos de actualizar los repositorios del Sistema Ubuntu. Aunque para obtener la última versión debemos añadir el repositorio oficial de docker, para ello podemos seguir la guía oficial de docker.
 
@@ -43,10 +43,10 @@ Continuamos con la instalación de docker-compose
   - docker-compose up
 
 
-### EVALUACIÓN Y PROPUESTA
+### EVALUACION Y PROPUESTA
 
 
-### ENLACES DE INTERÉS
+### ENLACES DE INTERES
 
 - https://github.com/deviantony/docker-elk.git
 - https://docker.com/
