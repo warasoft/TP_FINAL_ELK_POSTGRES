@@ -5,12 +5,15 @@ El objetivo del siguiente trabajo es lograr comparar la performance entre una Ba
 
 ### CONTENIDOS
 
-1. [INTRODUCCIÓN Y ANTECEDENTES](#INTRODUCCIÓN)
-2. [HERRAMIENTAS RELACIONADAS](#HERRAMEINTAS RELACIONADAS)
-3. [PASOS PARA IMPLEMENTACIÓN](#PASOS)
-4. [EVALUACIÓN PROPUESTA](#PROPUESTA)
+1. [INTRODUCCIÓN Y ANTECEDENTES](#INTRODUCCIÓN-Y-ANTECEDENTES)
+2. [HERRAMIENTAS RELACIONADAS](#HERRAMEINTAS-RELACIONADAS)
+3. [PASOS PARA IMPLEMENTACIÓN](#PASOS-PARA-IMPLEMENTACIÓN)
+4. [EVALUACIÓN Y PROPUESTA](#EVALUACIÓN-Y-PROPUESTA)
+5. [ENLACES DE INTERÉS](#ENLACES-DE-INTERÉS)
 
-### HERRAMIENTA SRELACIONADAS
+### INTRODUCCIÓN Y ANTECEDENTES
+
+### HERRAMIENTAS RELACIONADAS
 * S.O. UBUNTU 20.04
 * DOCKER
 * DOCKER COMPOSE
@@ -21,7 +24,6 @@ El objetivo del siguiente trabajo es lograr comparar la performance entre una Ba
 * KIBANA
 
 ### PASOS PARA IMPLEMENTACIÓN
-
 
 ) Para obtener una versión estable de Docker debemos de actualizar los repositorios del Sistema Ubuntu. Aunque para obtener la última versión debemos añadir el repositorio oficial de docker, para ello podemos seguir la guía oficial de docker.
 
@@ -39,6 +41,10 @@ Continuamos con la instalación de docker-compose
 
 ) Levantamos el docker-compose (elasticsearch, kibana, logstash, postgres, pgadmin4)
   - docker-compose up
+
+
+### EVALUACIÓN Y PROPUESTA
+
 
 ### ENLACES DE INTERES
 
