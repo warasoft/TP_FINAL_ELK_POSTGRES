@@ -25,23 +25,28 @@ El objetivo del siguiente trabajo es lograr comparar la performance entre una Ba
 
 ### PASOS PARA IMPLEMENTACION
 
-1) Para obtener una versión estable de Docker debemos de actualizar los repositorios del Sistema Ubuntu. Aunque para obtener la última versión debemos añadir el repositorio oficial de docker, para ello podemos seguir la guía oficial de docker (#enlaces-de-interes).
+1) Instalación de docker  y docker compose.
+
+Para obtener una versión estable de Docker debemos de actualizar los repositorios del Sistema Ubuntu. Aunque para obtener la última         versión debemos añadir el repositorio oficial de docker, para ello podemos seguir la guía oficial de docker ([ENLACES DE INTERES](#ENLACES-DE-INTERES)).
 
 - sudo apt-get update
 
-Lo siguiente a realizar es la instalación del programa docker, para ello debemos de instalar dos paquetes, docker y docker.io.
+Instalación de docker, para ello debemos de instalar dos paquetes, docker y docker.io.
 
 - sudo apt-get install docker docker.io
 
 Continuamos con la instalación de docker-compose
+
 - sudo apt-get install docker-compose
 
-) Descargar el archivo comprido "docker-elk-main.zip"
-  - Extraer el contenido en un lugar de facil acceso (/Escritorio)
+3) Levantar ambiente de trabajo
 
-) Levantamos el docker-compose (elasticsearch, kibana, logstash, postgres, pgadmin4)
-  - docker-compose up
+Para preparar el ambiente de trabajo se tomó como base un proyecto del repositorio ([docker-elk](#https://github.com/deviantony/docker-elk.git). 
 
+  3.a) Descargar el archivo comprido "docker-elk-main.zip", el mismo se encuentra en la raíz del repositorio.
+  3.b) Extraer el contenido en un lugar de facil acceso (Ejemplo: /Escritorio).
+  3.b) Abril al directorio "docker-elk-main" en una terminal (Ejemplo: j@jlinux:~/Escritorio/docker-elk-main$ )
+  3.c) Ejecutar el comando docker-compose (sudo docker-compose up).
 
 ### EVALUACION Y PROPUESTA
 
