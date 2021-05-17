@@ -27,7 +27,7 @@ El objetivo del siguiente trabajo es lograr comparar la performance entre una Ba
 
 1) Instalación de docker  y docker compose.
 
-Para obtener una versión estable de Docker debemos de actualizar los repositorios del Sistema Ubuntu. Aunque para obtener la última         versión debemos añadir el repositorio oficial de docker, para ello podemos seguir la guía oficial de docker [Docker](http://docker.com).
+Para obtener una versión estable de Docker debemos de actualizar los repositorios del Sistema Ubuntu. Aunque para obtener la última         versión debemos añadir el repositorio oficial de docker, para ello podemos seguir la guía oficial de [Docker](http://docker.com).
 
 - sudo apt-get update
 
@@ -41,7 +41,7 @@ Continuamos con la instalación de docker-compose
 
 3) Levantar ambiente de trabajo
 
-Para preparar el ambiente de trabajo se tomó como base un proyecto del repositorio ([docker-elk](#https://github.com/deviantony/docker-elk.git). 
+Para preparar el ambiente de trabajo se tomó como base un proyecto del repositorio [Docker-elk](https://github.com/deviantony/docker-elk.git. 
 
   3.a) Descargar el archivo comprido "docker-elk-main.zip", el mismo se encuentra en la raíz del repositorio.
   3.b) Extraer el contenido en un lugar de facil acceso (Ejemplo: /Escritorio).
