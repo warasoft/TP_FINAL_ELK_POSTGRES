@@ -29,25 +29,23 @@ El objetivo del siguiente trabajo es lograr comparar la performance entre una Ba
 
 Para obtener una versión estable de Docker debemos de actualizar los repositorios del Sistema Ubuntu. Aunque para obtener la última         versión debemos añadir el repositorio oficial de docker, para ello podemos seguir la guía oficial de [Docker](http://docker.com).
 
-- sudo apt-get update
+         sudo apt-get update
 
 Instalación de docker, para ello debemos de instalar dos paquetes, docker y docker.io.
 
-- sudo apt-get install docker docker.io
+         sudo apt-get install docker docker.io
 
 Continuamos con la instalación de docker-compose
 
-- sudo apt-get install docker-compose
+         sudo apt-get install docker-compose
 
 3) Levantar ambiente de trabajo
 
 Para preparar el ambiente de trabajo se tomó como base un proyecto del repositorio [Docker-elk](http://github.com/deviantony/docker-elk.git). Al mismo se le modificó y agregó ciertos parametros para cumplir con lo propuesto en el presente trabajo.
 
-Modificaciones puntuales:
-* kibana: directorio: j@jlinux:~/Escritorio/docker-elk-main/kibana/config$
-          archivo: kibana.yml
-          elasticsearch.username: test
-          elasticsearch.password: test
+  * 3.a) Modificaciones puntuales:
+    3.a.1) kibana: en el directorio "*j@jlinux:~/Escritorio/docker-elk-main/kibana/config$*", se modificó el archivo "*kibana.yml*"    elasticsearch.username: test
+elasticsearch.password: test
 
   * 3.a) Descargar el archivo comprido "docker-elk-main.zip", el mismo se encuentra en la raíz del repositorio.
   * 3.b) Extraer el contenido en un lugar de facil acceso (Ejemplo: /Escritorio).
@@ -63,3 +61,6 @@ Modificaciones puntuales:
 - https://docker.com/
 - https://hub.docker.com/
 - https://www.elastic.co/es/
+
+
+
