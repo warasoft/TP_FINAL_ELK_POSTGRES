@@ -27,7 +27,7 @@ El objetivo del siguiente trabajo es lograr comparar la performance entre una Ba
 
 1) Instalación de docker  y docker compose.
 
-Para obtener una versión estable de Docker debemos de actualizar los repositorios del Sistema Ubuntu. Aunque para obtener la última         versión debemos añadir el repositorio oficial de docker, para ello podemos seguir la guía oficial de docker ([Docker](#docker.com)).
+Para obtener una versión estable de Docker debemos de actualizar los repositorios del Sistema Ubuntu. Aunque para obtener la última         versión debemos añadir el repositorio oficial de docker, para ello podemos seguir la guía oficial de docker [Docker](http://docker.com).
 
 - sudo apt-get update
 
