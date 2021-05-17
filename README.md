@@ -43,9 +43,8 @@ Continuamos con la instalación de docker-compose
 
 Para preparar el ambiente de trabajo se tomó como base un proyecto del repositorio [Docker-elk](http://github.com/deviantony/docker-elk.git). Al mismo se le modificó y agregó ciertos parametros para cumplir con lo propuesto en el presente trabajo.
 
-  * 3.a) Modificaciones puntuales:
-    3.a.1) kibana: en el directorio "*j@jlinux:~/Escritorio/docker-elk-main/kibana/config$*", se modificó el archivo "*kibana.yml*"    elasticsearch.username: test
-elasticsearch.password: test
+  * 3.a) Modificaciones a kibana:
+    3.a.1) En el directorio "*j@jlinux:~/Escritorio/docker-elk-main/kibana/config$*", se modificó el archivo "*kibana.yml*" elasticsearch.username: test, elasticsearch.password: test
 
   * 3.a) Descargar el archivo comprido "docker-elk-main.zip", el mismo se encuentra en la raíz del repositorio.
   * 3.b) Extraer el contenido en un lugar de facil acceso (Ejemplo: /Escritorio).
