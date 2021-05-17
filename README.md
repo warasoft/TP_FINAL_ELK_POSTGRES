@@ -62,6 +62,10 @@ Continuando con la creación del ambiente de trabajo, se procede a levantar todo
 
          sudo docker-compose up
 
+4) Creación e importacion de la Base de datos Postgres
+
+<img src="https://github.com/sebarigonatto/MvcMovie/blob/master/usoQR.gif" style="max-width: 100%">
+
 ### EVALUACION Y PROPUESTA
 
 
