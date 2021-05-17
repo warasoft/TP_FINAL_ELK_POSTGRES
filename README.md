@@ -43,13 +43,24 @@ Continuamos con la instalación de docker-compose
 
 Para preparar el ambiente de trabajo se tomó como base un proyecto del repositorio [Docker-elk](http://github.com/deviantony/docker-elk.git). Al mismo se le modificó y agregó ciertos parametros para cumplir con lo propuesto en el presente trabajo.
 
-  * 3.a) Modificaciones a kibana:
-    3.a.1) En el directorio "*j@jlinux:~/Escritorio/docker-elk-main/kibana/config$*", se modificó el archivo "*kibana.yml*" elasticsearch.username: test, elasticsearch.password: test
+  * Modificaciones a kibana:
+    - En el directorio "*j@jlinux:~/Escritorio/docker-elk-main/kibana/config$*", se modificó el archivo "*kibana.yml*" cambiandole usuario "*elasticsearch.username: test*" y "*elasticsearch.password: test*".
+
+  * Modificaciones a logstash:
+    - En el directorio "*j@jlinux:~/Escritorio/docker-elk-main/logstash/config$*", se modificó el archivo "*logstash.yml*" cambiandole usuario "*xpack.monitoring.elasticsearch.username: test*" y "*xpack.monitoring.elasticsearch.password: test*".
+    - En el directorio "*j@jlinux:~/Escritorio/docker-elk-main/logstash/pipeline$*", se modificó el archivo "*logstash.conf*" modificando los comando para conectar con la base de datos Postgres "*xxxxxxxxxxxxxxxx*".
+
+  * Modificaciones al archivo "*docker-compose*" del directorio "*docker-elk-main*":
+    - Se agrego los comandos para la creacion de dos contenedores, uno para una base de datos Postgres y otro para la interfaz web del cliente (usuario: test@test.com y password: test).
+
+Continuando con la creación del ambiente de trabajo, se procede a levantar todo el entorno.
 
   * 3.a) Descargar el archivo comprido "docker-elk-main.zip", el mismo se encuentra en la raíz del repositorio.
   * 3.b) Extraer el contenido en un lugar de facil acceso (Ejemplo: /Escritorio).
   * 3.b) Abril al directorio "docker-elk-main" en una terminal (Ejemplo: j@jlinux:~/Escritorio/docker-elk-main$ )
-  * 3.c) Ejecutar el comando docker-compose (sudo docker-compose up).
+  * 3.c) Ejecutar el comando docker-compose:
+
+         sudo docker-compose up
 
 ### EVALUACION Y PROPUESTA
 
