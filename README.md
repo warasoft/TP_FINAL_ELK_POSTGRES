@@ -41,11 +41,32 @@ Continuamos con la instalación de docker-compose
 
 3) Levantar ambiente de trabajo
 
-Para preparar el ambiente de trabajo se tomó como base un proyecto del repositorio [Docker-elk](https://github.com/caas/docker-elk.git). Al mismo se le modificó y agregó ciertos parametros para cumplir con lo propuesto en el presente trabajo.
+Para preparar el ambiente de trabajo se tomó como base un proyecto del repositorio [Docker-elk](https://github.com/caas/docker-elk.git). EL mismo fué modificado para cumplir con lo propuesto en el presente trabajo.
+
+  * 3.a) Descargar los archivos compridos "docker-postgres" y "docker-elastic-kibana.zip", los mismos se encuentran en la raíz del repositorio.
+  * 3.b) Extraer el contenido de ambos archivos .zip, en un lugar de facil acceso (Ejemplo: /Escritorio).
+  * 3.b) Crear base de datos "Postgres" y acceso a cliente "Pgadmin", abrir el directorio "docker-postgres" en una terminal (Ejemplo: j@jlinux:~/Escritorio/docker-postgres$)
+  * 3.c) Ejecutar el comando docker-compose:
+
+         sudo docker-compose up -d
+
+<img src="https://github.com/warasoft/tp_final/blob/main/bd%20creator.gif" style="max-width: 80%">
+
+
+
+
+
+
+
+
+
+
 
   * Eliminación del directorio "logstash":
-    - La herramienta "logstash" se descargará e instalará por separado y de forma local en la pc anfitrion.
-    - Descargar el archivo .zip del siguiente link: https://www.elastic.co/es/downloads/past-releases/logstash-6-6-0
+    - La herramienta "logstash" se descargará e instalará por separado y de forma local en la pc anfitrion (ver punto ---).
+
+
+    - "Logstash-6.6.0" se encuentra en el siguiente link: https://www.elastic.co/es/downloads/past-releases/logstash-6-6-0, descargar el .zip.
     - 
 
   * Modificaciones a logstash:
@@ -57,16 +78,10 @@ Para preparar el ambiente de trabajo se tomó como base un proyecto del reposito
 
 Continuando con la creación del ambiente de trabajo, se procede a levantar todo el entorno.
 
-  * 3.a) Descargar los archivos compridos "docker-postgres" y "docker-elastic-kibana.zip", los mismos se encuentran en la raíz del repositorio.
-  * 3.b) Extraer el contenido de ambos archivos .zip, en un lugar de facil acceso (Ejemplo: /Escritorio).
-  * 3.b) Abrir el directorio "docker-elastic-kibana" en una terminal (Ejemplo: j@jlinux:~/Escritorio/docker-elastic-kibana$)
-  * 3.c) Ejecutar el comando docker-compose:
+  
 
-         sudo docker-compose up -d
 
-4) Creación e importacion de la Base de datos Postgres
 
-<img src="https://github.com/warasoft/tp_final/blob/main/bd%20creator.gif" style="max-width: 80%">
 
 ### EVALUACION Y PROPUESTA
 
