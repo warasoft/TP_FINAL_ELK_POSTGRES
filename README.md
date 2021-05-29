@@ -23,6 +23,12 @@ El objetivo del siguiente trabajo es lograr comparar la capacidad de respuesta e
 * LOGSTASH 6.6.0
 * KIBANA 6.6.0
 
+Características de la computadora de prueba:
+- S.O. Ubuntu 20.04.
+- Intel Core I5.
+- 4 Gb RAM.
+- 30 Gb Hard Disk.
+
 ### PASOS PARA LA IMPLEMENTACION
 
 1) Instalación de Docker  y Docker Compose.
