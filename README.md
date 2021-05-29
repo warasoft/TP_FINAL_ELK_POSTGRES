@@ -17,11 +17,11 @@ El objetivo del siguiente trabajo es lograr comparar la capacidad de respuesta e
 * S.O. UBUNTU 20.04
 * DOCKER
 * DOCKER COMPOSE
-* POSTGRES
-* PGADMIN4 WEB
-* ELASTICSEARCH
-* LOGSTASH
-* KIBANA
+* POSTGRES latest
+* PGADMIN4 WEB latest
+* ELASTICSEARCH 6.6.0
+* LOGSTASH 6.6.0
+* KIBANA 6.6.0
 
 ### PASOS PARA LA IMPLEMENTACION
 
