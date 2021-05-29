@@ -51,7 +51,7 @@ Para preparar el ambiente de trabajo se tomó como base un proyecto del reposito
 A continuacíon se desatallan los pasos a seguir:
 
   * 2.a) Descargar los archivos comprimidos *"docker-elastic-kibana.zip"* y *"docker-postgres"*, los mismos se encuentran en la raíz del repositorio.
-  * 2.b) Extraer en un lugar de facil acceso (Ejemplo: /Escritorio), el contenido de ambos archivos .zip.
+  * 2.b) Extraer  el contenido de ambos archivos .zip, en un lugar de facil acceso (Ejemplo: /Escritorio).
   * 2.c) Para crear los contenedores de *"Elasticsearch"* y *"kibana"*, abrir el directorio "docker-elastic-kibana" en una terminal (Ejemplo: j@jlinux:~/Escritorio/docker-elastic-kibana$).
     - Ejecutar el comando docker-compose:
          
