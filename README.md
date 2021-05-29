@@ -62,7 +62,7 @@ A continuacíon se desatallan los pasos a seguir:
 
                   sudo docker-compose up -d
    
-  * 2.e) La herramienta *"logstash"* se descargará e instalará por separado y de forma local en la pc anfitrion.
+  * 2.e) La herramienta *"logstash"* se descarga e instala por separado y de forma local en la pc anfitrion.
 
     - "Logstash-6.6.0", link: https://www.elastic.co/es/downloads/past-releases/logstash-6-6-0, descargar el .zip.
     - Extraer el contenido del .zip en un lugar de facil acceso (Ejemplo: /Escritorio).
