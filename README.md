@@ -14,14 +14,21 @@ El objetivo del siguiente trabajo es lograr comparar la capacidad de respuesta e
 ### INTRODUCCION Y ANTECEDENTES
 
 ### HERRAMIENTAS RELACIONADAS
+
 * S.O. UBUNTU 20.04
 * DOCKER
 * DOCKER COMPOSE
-* POSTGRES
-* PGADMIN4 WEB
-* ELASTICSEARCH
-* LOGSTASH
-* KIBANA
+* POSTGRES latest
+* PGADMIN4 WEB latest
+* ELASTICSEARCH 6.6.0
+* LOGSTASH 6.6.0
+* KIBANA 6.6.0
+
+Características de la computadora de prueba:
+- Ubuntu 20.04.
+- Intel Core I5.
+- 4 Gb RAM.
+- 30 Gb HardDisk.
 
 ### PASOS PARA LA IMPLEMENTACION
 
