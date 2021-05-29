@@ -60,7 +60,7 @@ A continuacíon se desatalla los pasos a seguir:
 
     - "Logstash-6.6.0", link: https://www.elastic.co/es/downloads/past-releases/logstash-6-6-0, descargar el .zip.
     - Extraer el contenido del .zip en un lugar de facil acceso (Ejemplo: /Escritorio).
-    - Dirigirse a la carpeta *"../logstash-6.6.0/bin/"* y pegar los siguientes archivos: *"query.sql"* y *"logstash-sample.conf"* (ambos se pueden descargar desde el repositorio raíz).
+    - Dirigirse a la carpeta *"../logstash-6.6.0/bin/"* y pegar los siguientes archivos: *"query.sql"* y *"logstash-sample.conf"* (ambos se pueden descargar desde el repositorio actual *"tp_final/Archivos para Logstash"*).
     - Descargar el archivo [postgresql-42.2.1.jar](http://www.java2s.com/ref/jar/download-postgresql4221jar-file.html), y copiarlo *"../logstash-6.6.0/bin/"*.
 
 3) Conexión a la Base de Datos *"PostgreSql"* e importación de datos de pruebas Senasa.
