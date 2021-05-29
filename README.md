@@ -75,6 +75,9 @@ A continuacíon se desatalla los pasos a seguir:
          j@j:~/Escritorio/logstash-6.6.0$ cd bin
          j@j:~/Escritorio/logstash-6.6.0/bin$ ./logstash -f logstash-sample.conf
          
+         
+<img src="Gif's/logstash exec.gif" style="width: 50%">
+         
 5) Creación de índices en "*Kibana*" para la muestra de datos de la base *"SENASA"*.
 
 <img src="Gif's/kibana patron.gif" style="max-width: 50%">
