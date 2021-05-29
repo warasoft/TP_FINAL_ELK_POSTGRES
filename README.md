@@ -66,26 +66,8 @@ A continuacíon se desatalla los pasos a seguir:
     - Dirigirse a la carpeta *"../logstash-6.6.0/bin/"* y pegar los siguientes archivos: *"query.sql"* y *"logstash-sample.conf"* (ambos se pueden descargar desde el repositorio raíz).
     - Descargar el archivo [postgresql-42.2.1.jar](http://www.java2s.com/ref/jar/download-postgresql4221jar-file.html), y copiarlo *"../logstash-6.6.0/bin/"*.
 
-
-
-
-
-
-
-
-
-
-    
-    
-
-  * Modificaciones a logstash:
-    - En el directorio "*j@jlinux:~/Escritorio/docker-elk-main/logstash/config$*", se modificó el archivo "*logstash.yml*" cambiandole usuario "*xpack.monitoring.elasticsearch.username: test*" y "*xpack.monitoring.elasticsearch.password: test*".
-    - En el directorio "*j@jlinux:~/Escritorio/docker-elk-main/logstash/pipeline$*", se modificó el archivo "*logstash.conf*" modificando los comando para conectar con la base de datos Postgres "*xxxxxxxxxxxxxxxx*".
-
-  * Modificaciones al archivo "*docker-compose*" del directorio "*docker-elk-main*":
-    - Se agrego los comandos para la creacion de dos contenedores, uno para una base de datos Postgres y otro para la interfaz web del cliente (usuario: test@test.com y password: test).
-
-Continuando con la creación del ambiente de trabajo, se procede a levantar todo el entorno.
+3) Conexión a la Base de Datos *"PostgreSql"*
+4) Creación y 
 
   
 
