@@ -39,35 +39,31 @@ Continuamos con la instalación de docker-compose
 
          sudo apt-get install docker-compose
 
-3) Levantar ambiente de trabajo
+2) Levantar ambiente de trabajo
 
 Para preparar el ambiente de trabajo se tomó como base un proyecto del repositorio [Docker-elk](https://github.com/caas/docker-elk.git). EL mismo fué modificado para cumplir con lo propuesto en el presente trabajo.
+A continuacíon se desatalla los pasos a seguir:
 
-  * 3.a) Descargar los archivos compridos "docker-postgres" y "docker-elastic-kibana.zip", los mismos se encuentran en la raíz del repositorio.
-  * 3.b) Extraer el contenido de ambos archivos .zip, en un lugar de facil acceso (Ejemplo: /Escritorio).
-  * 3.b) Crear base de datos "Postgres" y acceso a cliente "Pgadmin", abrir el directorio "docker-postgres" en una terminal (Ejemplo: j@jlinux:~/Escritorio/docker-postgres$)
-  * 3.c) Ejecutar el comando docker-compose:
+  * 2.a) Descargar los archivos compridos "docker-elastic-kibana.zip" y "docker-postgres", los mismos se encuentran en la raíz del repositorio.
+  * 2.b) Extraer en un lugar de facil acceso (Ejemplo: /Escritorio), el contenido de ambos archivos .zip.
+  * 2.c) Para crear los contenedores de "Elasticsearch" y "kibana", abrir el directorio "docker-elastic-kibana" en una terminal (Ejemplo: j@jlinux:~/Escritorio/docker-elastic-kibana$)
+  * 2.c) Ejecutar el comando docker-compose:
+         
+         sudo docker-compose up -d
+
+  * 2.d) Crear base de datos "Postgres" y acceso a cliente "Pgadmin", abrir el directorio "docker-postgres" en una terminal (Ejemplo: j@jlinux:~/Escritorio/docker-postgres$)
+  * 2.e) Ejecutar el comando docker-compose:
 
          sudo docker-compose up -d
 
 <img src="https://github.com/warasoft/tp_final/blob/main/bd%20creator.gif" style="max-width: 80%">
 
+   
+  * 2.f) La herramienta "logstash" se descargará e instalará por separado y de forma local en la pc anfitrion.
 
-
-
-
-
-
-
-
-
-
-  * Eliminación del directorio "logstash":
-    - La herramienta "logstash" se descargará e instalará por separado y de forma local en la pc anfitrion (ver punto ---).
-
-
-    - "Logstash-6.6.0" se encuentra en el siguiente link: https://www.elastic.co/es/downloads/past-releases/logstash-6-6-0, descargar el .zip.
-    - 
+    - "Logstash-6.6.0", link: https://www.elastic.co/es/downloads/past-releases/logstash-6-6-0, descargar el .zip.
+    
+    
 
   * Modificaciones a logstash:
     - En el directorio "*j@jlinux:~/Escritorio/docker-elk-main/logstash/config$*", se modificó el archivo "*logstash.yml*" cambiandole usuario "*xpack.monitoring.elasticsearch.username: test*" y "*xpack.monitoring.elasticsearch.password: test*".
