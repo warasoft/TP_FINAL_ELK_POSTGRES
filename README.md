@@ -48,7 +48,7 @@ Continuamos con la instalación de *"docker-compose"*
 2) Levantar ambiente de trabajo
 
 Para preparar el ambiente de trabajo se tomó como base un proyecto del repositorio [Docker-elk](https://github.com/caas/docker-elk.git). EL mismo fué modificado para cumplir con lo propuesto en el presente trabajo.
-A continuacíon se desatalla los pasos a seguir:
+A continuacíon se desatallan los pasos a seguir:
 
   * 2.a) Descargar los archivos compridos *"docker-elastic-kibana.zip"* y *"docker-postgres"*, los mismos se encuentran en la raíz del repositorio.
   * 2.b) Extraer en un lugar de facil acceso (Ejemplo: /Escritorio), el contenido de ambos archivos .zip.
