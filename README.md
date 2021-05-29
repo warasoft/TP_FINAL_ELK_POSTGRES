@@ -77,7 +77,7 @@ A continuacíon se desatalla los pasos a seguir:
          
 5) Creación de índices en "*Kibana*" para la muestra de datos de la base *"SENASA"*.
 
-<img src="https://github.com/warasoft/tp_final/Gif's/kibana%patron.gif" style="max-width: 50%">
+<img src="Gif's/kibana patron.gif" style="max-width: 50%">
 
 
 ### EVALUACION Y PROPUESTA
