@@ -84,10 +84,12 @@ Continuando con la creación del ambiente de trabajo, se procede a levantar todo
 
 ### ENLACES DE INTERES
 
-- https://github.com/deviantony/docker-elk.git
+- https://github.com/caas/docker-elk.git
 - https://docker.com/
 - https://hub.docker.com/
 - https://www.elastic.co/es/
+- https://www.elastic.co/es/downloads/past-releases/logstash-6-6-0
+- http://www.java2s.com/ref/jar/download-postgresql4221jar-file.html
 
 
 
