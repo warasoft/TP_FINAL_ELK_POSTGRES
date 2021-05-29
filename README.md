@@ -37,7 +37,7 @@ Para obtener una versión estable de Docker debemos de actualizar los repositori
 
          sudo apt-get update
 
-Instalación de *"docker"*, para ello debemos de instalar dos paquetes, docker y docker.io.
+Instalación de *"docker"*, instalar dos paquetes, docker y docker.io.
 
          sudo apt-get install docker docker.io
 
@@ -47,7 +47,7 @@ Continuamos con la instalación de *"docker-compose"*
 
 2) Levantar ambiente de trabajo
 
-Para preparar el ambiente de trabajo se tomó como base un proyecto del repositorio [Docker-elk](https://github.com/caas/docker-elk.git). EL mismo fué modificado para cumplir con lo propuesto en el presente trabajo.
+Se tomó como base un proyecto del repositorio [Docker-elk](https://github.com/caas/docker-elk.git). EL mismo fué modificado para cumplir con lo propuesto en el presente trabajo.
 A continuacíon se desatallan los pasos a seguir:
 
   * 2.a) Descargar los archivos comprimidos *"docker-elastic-kibana.zip"* y *"docker-postgres"*, los mismos se encuentran en la raíz del repositorio.
