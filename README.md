@@ -55,9 +55,6 @@ A continuacíon se desatalla los pasos a seguir:
     - Ejecutar el comando docker-compose:
 
                   sudo docker-compose up -d
-
-<img src="https://github.com/warasoft/tp_final/blob/main/bd%20creator.gif" style="max-width: 50%">
-
    
   * 2.e) La herramienta *"logstash"* se descargará e instalará por separado y de forma local en la pc anfitrion.
 
@@ -66,13 +63,11 @@ A continuacíon se desatalla los pasos a seguir:
     - Dirigirse a la carpeta *"../logstash-6.6.0/bin/"* y pegar los siguientes archivos: *"query.sql"* y *"logstash-sample.conf"* (ambos se pueden descargar desde el repositorio raíz).
     - Descargar el archivo [postgresql-42.2.1.jar](http://www.java2s.com/ref/jar/download-postgresql4221jar-file.html), y copiarlo *"../logstash-6.6.0/bin/"*.
 
-3) Conexión a la Base de Datos *"PostgreSql"*
-4) Creación y 
+3) Conexión a la Base de Datos *"PostgreSql"* e importación de datos de pruebas Senasa.
 
-  
+<img src="https://github.com/warasoft/tp_final/blob/main/bd%20creator.gif" style="max-width: 50%">
 
-
-
+4) Transacción de datos del *"PostgreSql"* al *"ElasticSearch"* mediante *"Logstash"*.
 
 ### EVALUACION Y PROPUESTA
 
