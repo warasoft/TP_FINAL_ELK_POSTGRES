@@ -65,7 +65,7 @@ A continuacíon se desatalla los pasos a seguir:
 
 3) Conexión a la Base de Datos *"PostgreSql"* e importación de datos de pruebas Senasa.
 
-<img src="https://github.com/warasoft/tp_final/blob/main/bd%20creator.gif" style="max-width: 50%">
+<img src="Gif's/pgadmin importacion.gif" style="max-width: 50%">
 
 4) Transacción de datos del *"PostgreSql"* al *"ElasticSearch"* mediante *"Logstash"*.
 
