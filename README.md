@@ -71,6 +71,9 @@ A continuacíon se desatallan los pasos a seguir:
 
 3) Conexión a la Base de Datos *"PostgreSql"* e importación de datos de pruebas Senasa.
 
+Dirección web para el manejo de PostgreSql COMPLETAR
+User:test         Passw: test
+
 <img src="Gif's/pgadmin importacion.gif" style="max-width: 50%">
 
 4) Transacción de datos del *"PostgreSql"* al *"ElasticSearch"* mediante *"Logstash"*.
@@ -85,7 +88,7 @@ A continuacíon se desatallan los pasos a seguir:
 <img src="Gif's/logstash exec.gif" style="width: 50%">
          
 5) Creación de índices en "*Kibana*" para la muestra de datos de la base *"SENASA"*.
-
+Dirección web entrar en Kibana
 <img src="Gif's/kibana patron.gif" style="max-width: 50%">
 
 
