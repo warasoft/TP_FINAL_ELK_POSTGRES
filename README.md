@@ -14,21 +14,14 @@ El objetivo del siguiente trabajo es lograr comparar la capacidad de respuesta e
 ### INTRODUCCION Y ANTECEDENTES
 
 ### HERRAMIENTAS RELACIONADAS
-
 * S.O. UBUNTU 20.04
 * DOCKER
 * DOCKER COMPOSE
-* POSTGRES latest
-* PGADMIN4 WEB latest
-* ELASTICSEARCH 6.6.0
-* LOGSTASH 6.6.0
-* KIBANA 6.6.0
-
-Características de la computadora de prueba:
-- Ubuntu 20.04.
-- Intel Core I5.
-- 4 Gb RAM.
-- 30 Gb HardDisk.
+* POSTGRES
+* PGADMIN4 WEB
+* ELASTICSEARCH
+* LOGSTASH
+* KIBANA
 
 ### PASOS PARA LA IMPLEMENTACION
 
@@ -67,7 +60,7 @@ A continuacíon se desatalla los pasos a seguir:
 
     - "Logstash-6.6.0", link: https://www.elastic.co/es/downloads/past-releases/logstash-6-6-0, descargar el .zip.
     - Extraer el contenido del .zip en un lugar de facil acceso (Ejemplo: /Escritorio).
-    - Dirigirse a la carpeta *"../logstash-6.6.0/bin/"* y pegar los siguientes archivos: *"query.sql"* y *"logstash-sample.conf"* (ambos se pueden descargar desde el repositorio actual *"tp_final/Archivos para Logstash"*).
+    - Dirigirse a la carpeta *"../logstash-6.6.0/bin/"* y pegar los siguientes archivos: *"query.sql"* y *"logstash-sample.conf"* (ambos se pueden descargar desde el repositorio raíz).
     - Descargar el archivo [postgresql-42.2.1.jar](http://www.java2s.com/ref/jar/download-postgresql4221jar-file.html), y copiarlo *"../logstash-6.6.0/bin/"*.
 
 3) Conexión a la Base de Datos *"PostgreSql"* e importación de datos de pruebas Senasa.
@@ -75,6 +68,17 @@ A continuacíon se desatalla los pasos a seguir:
 <img src="https://github.com/warasoft/tp_final/blob/main/bd%20creator.gif" style="max-width: 50%">
 
 4) Transacción de datos del *"PostgreSql"* al *"ElasticSearch"* mediante *"Logstash"*.
+
+   - Abrir el directorio "*logstash-6.6.0*" en una terminal (Ejemplo: j@jlinux:~/Escritorio/logstash-6.6.0$).
+   - Ejecutar los siguientes comandos:
+
+         j@j:~/Escritorio/logstash-6.6.0$ cd bin
+         j@j:~/Escritorio/logstash-6.6.0/bin$ ./logstash -f logstash-sample.conf
+         
+5) Creación de índices en "*Kibana*" para la muestra de datos de la base *"SENASA"*.
+
+
+
 
 ### EVALUACION Y PROPUESTA
 
