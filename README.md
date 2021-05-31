@@ -57,26 +57,35 @@ A continuacíon se desatallan los pasos a seguir:
          
                   sudo docker-compose up -d
 
-  * 2.d) Crear base de datos *"Postgres"* y acceso a cliente *"Pgadmin"*, abrir el directorio *"docker-postgres"* en una terminal (Ejemplo: j@jlinux:~/Escritorio/docker-postgres$).
+  * 2.d) Crear los contenedores con la base de datos *"Postgres"* y el acceso a cliente *"Pgadmin"*, abrir el directorio *"docker-postgres"* en una terminal (Ejemplo: j@jlinux:~/Escritorio/docker-postgres$).
     - Ejecutar el comando docker-compose:
 
                   sudo docker-compose up -d
    
-  * 2.e) La herramienta *"logstash"* se descarga e instala por separado y de forma local en la pc anfitrion.
+  * 2.e) Conexión a la Base de Datos *"PostgreSql"*.
+
+    - Abrir en el navegador, "*http://localhost:16543*".
+    - Ingresar Mail-user: "*test@test.com*", password: "*test*".
+    - Dirigirse a: "*=> Servers => Create => Server*".
+    - Solapa General: "*=> Name: postgres*".
+    - Solapa Connection: "*Host name/address: postgres => Port:5432 => Username: test => Password: test*".
+
+<img src="Gif's/pgadmin importacion.gif" style="max-width: 50%">
+
+  * 2.f) Importación de datos de pruebas Senasa.
+
+    - "Logstash-6.6.0", link: https://www.elastic.co/es/downloads/past-releases/logstash-6-6-0, descargar el .zip.
+
+
+  * 2.g) La herramienta *"logstash"* se descarga e instala por separado y de forma local en la pc anfitrion.
 
     - "Logstash-6.6.0", link: https://www.elastic.co/es/downloads/past-releases/logstash-6-6-0, descargar el .zip.
     - Extraer el contenido del .zip en un lugar de facil acceso (Ejemplo: /Escritorio).
     - Dirigirse a la carpeta *"../logstash-6.6.0/bin/"* y pegar los siguientes archivos: *"query.sql"* y *"logstash-sample.conf"* (ambos se pueden descargar de la carpeta "*Archivos para Logstash*").
     - Descargar el archivo [postgresql-42.2.1.jar](http://www.java2s.com/ref/jar/download-postgresql4221jar-file.html), y copiarlo *"../logstash-6.6.0/bin/"*.
 
-3) Conexión a la Base de Datos *"PostgreSql"* e importación de datos de pruebas Senasa.
 
-Dirección web para el manejo de PostgreSql COMPLETAR
-User:test         Passw: test
-
-<img src="Gif's/pgadmin importacion.gif" style="max-width: 50%">
-
-4) Transacción de datos del *"PostgreSql"* al *"ElasticSearch"* mediante *"Logstash"*.
+3) Transacción de datos del *"PostgreSql"* al *"ElasticSearch"* mediante *"Logstash"*.
 
    - Abrir el directorio "*logstash-6.6.0*" en una terminal (Ejemplo: j@jlinux:~/Escritorio/logstash-6.6.0$).
    - Ejecutar los siguientes comandos:
@@ -87,7 +96,7 @@ User:test         Passw: test
          
 <img src="Gif's/logstash exec.gif" style="width: 50%">
          
-5) Creación de índices en "*Kibana*" para la muestra de datos de la base *"SENASA"*.
+4) Creación de índices en "*Kibana*" para la muestra de datos de la base *"SENASA"*.
 Dirección web entrar en Kibana
 <img src="Gif's/kibana patron.gif" style="max-width: 50%">
 
