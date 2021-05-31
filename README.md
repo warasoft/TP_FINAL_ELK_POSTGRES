@@ -70,12 +70,12 @@ A continuacíon se desatallan los pasos a seguir:
     - Solapa General: "*=> Name: postgres*".
     - Solapa Connection: "*Host name/address: postgres => Port:5432 => Username: test => Password: test*".
 
-<img src="Gif's/pgadmin importacion.gif" style="max-width: 50%">
+<img src="bd creator.gif" style="max-width: 50%">
 
   * 2.f) Importación de datos de pruebas Senasa.
 
     - "Logstash-6.6.0", link: https://www.elastic.co/es/downloads/past-releases/logstash-6-6-0, descargar el .zip.
-
+<img src="Gif's/pgadmin importacion.gif" style="max-width: 50%">
 
   * 2.g) La herramienta *"logstash"* se descarga e instala por separado y de forma local en la pc anfitrion.
 
