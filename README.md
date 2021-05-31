@@ -75,9 +75,11 @@ A continuacíon se desatallan los pasos a seguir:
   * 2.f) Creación de tabla Senasa e importación de datos de pruebas.
 
     - Dirigirse a: "*=> Postgres => Databases => Postgres*".
-    - En "*Postgres*", botón derecho, y seleccionar "*Query tool*".
-    - Copiar, pegar y ejecutar el script para crear la tabla SENASA : 
-    - Dirigirse a: "*=> Postgres => Schemas => Public => Tables*".
+    - En "*Postgres*", presionar botón derecho, y seleccionar "*Query tool*".
+    - Copiar, pegar y ejecutar el script "*CREATE TABLE*" que se encuentra en la raíz del repositorio.
+    - Hacer un REFRESH de la base.
+    - En la tabla "*SENASA*, presionar botón derecho, y seleccionar "*Import/Export...*".{
+    - 
 
 <img src="Gif's/pgadmin importacion.gif" style="max-width: 50%">
 
