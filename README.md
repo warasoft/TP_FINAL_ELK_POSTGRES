@@ -78,7 +78,7 @@ A continuacíon se desatallan los pasos a seguir:
     - En "*Postgres*", presionar botón derecho, y seleccionar "*Query tool*".
     - Copiar, pegar y ejecutar el script "*CREATE TABLE*" que se encuentra en la raíz del repositorio.
     - Hacer un REFRESH de la base.
-    - En la tabla "*SENASA*, presionar botón derecho, y seleccionar "*Import/Export...*".
+    - En la tabla "*SENASA*", presionar botón derecho, y seleccionar "*Import/Export...*".
     - Seleccionar "*Importar*".
     - En "*Filename*", subir los 3 archivos .csv, una vez cargados presionar CANCELAR.
     - Nuevamente en "*Filename*", seleccionar de a uno por uno, los archivos .csv (debido a que el máximo tamaño de archivo es de 50Mb).
