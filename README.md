@@ -93,7 +93,14 @@ A continuacíon se desatallan los pasos a seguir:
     - Dirigirse a la carpeta *"../logstash-6.6.0/bin/"* y pegar los siguientes archivos: *"query.sql"* y *"logstash-sample.conf"* (ambos se pueden descargar de la carpeta "*Archivos para Logstash*").
     - Descargar el archivo [postgresql-42.2.1.jar](http://www.java2s.com/ref/jar/download-postgresql4221jar-file.html), y copiarlo *"../logstash-6.6.0/bin/"*.
 
+*Aclaración: se debe tener instalada la verions 8 de Java para su correcto funcionamiento.
 
+         sudo apt install openjdk-8-jdk
+         
+*En caso de tener más de una versión instalada, se debere elegir como 1° prioridad, la versión 8.
+
+         sudo update-alternatives --config java
+         
 3) Transacción de datos del *"PostgreSql"* al *"ElasticSearch"* mediante *"Logstash"*.
 
    - Abrir el directorio "*logstash-6.6.0*" en una terminal (Ejemplo: j@jlinux:~/Escritorio/logstash-6.6.0$).
