@@ -68,13 +68,17 @@ A continuacíon se desatallan los pasos a seguir:
     - Ingresar Mail-user: "*test@test.com*", password: "*test*".
     - Dirigirse a: "*=> Servers => Create => Server*".
     - Solapa General: "*=> Name: postgres*".
-    - Solapa Connection: "*Host name/address: postgres => Port:5432 => Username: test => Password: test*".
+    - Solapa Connection: "*=> Host name/address: postgres => Port:5432 => Username: test => Password: test*".
 
 <img src="bd creator.gif" style="max-width: 50%">
 
-  * 2.f) Importación de datos de pruebas Senasa.
+  * 2.f) Creación de tabla Senasa e importación de datos de pruebas.
 
-    - "Logstash-6.6.0", link: https://www.elastic.co/es/downloads/past-releases/logstash-6-6-0, descargar el .zip.
+    - Dirigirse a: "*=> Postgres => Databases => Postgres*".
+    - En "*Postgres*", botón derecho, y seleccionar "*Query tool*".
+    - Copiar, pegar y ejecutar el script para crear la tabla SENASA : 
+    - Dirigirse a: "*=> Postgres => Schemas => Public => Tables*".
+
 <img src="Gif's/pgadmin importacion.gif" style="max-width: 50%">
 
   * 2.g) La herramienta *"logstash"* se descarga e instala por separado y de forma local en la pc anfitrion.
