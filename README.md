@@ -1,17 +1,23 @@
-# CAPTURA Y ALMACENAMIENTO DE DATOS
+# CAPTURA Y ALMACENAMIENTO DE LA INFORMACIÓN
 ## Trabajo Práctico
 ### OBJETIVOS
 El objetivo del siguiente trabajo es lograr comparar la capacidad de respuesta entre una Base de Datos Relacional ***POSTGRESQL***, y herramientas alternativas de explotación de datos como por ejemplo el ***Stack Elk (Elasticsearch, logstash y kibana)***.
 
 ### CONTENIDOS
 
-1. [INTRODUCCION Y ANTECEDENTES](#INTRODUCCION-Y-ANTECEDENTES)
+1. [INTRODUCCION](#INTRODUCCION)
 2. [HERRAMIENTAS RELACIONADAS](#HERRAMIENTAS-RELACIONADAS)
 3. [PASOS PARA LA IMPLEMENTACION](#PASOS-PARA-LA-IMPLEMENTACION)
 4. [EVALUACION Y PROPUESTA](#EVALUACION-Y-PROPUESTA)
 5. [ENLACES DE INTERES](#ENLACES-DE-INTERES)
 
-### INTRODUCCION Y ANTECEDENTES
+### INTRODUCCION
+
+En el marco del curso de posgrado “Captura y Almacenamiento de la Información” dictado por la Facultad de Informática de la Universidad de La Plata, se realizó el presente trabajo de investigación a los efectos de aplicar los conocimientos adquiridos durante la cursada.
+
+En este sentido, se tomó como punto de partida una base de datos del Programa Nacional de Sanidad de Material de Propagación del Servicio Nacional de Sanidad y Calidad Agroalimentaria (SENASA) perteneciente a movimientos de plantas de vivero del año 2016 a 2021 por todo el territorio nacional argentino.
+
+Con el objeto de comparar y evaluar el rendimiento de diferentes consultas a ese set de datos, se logró montar un ambiente de trabajo con las herramientas vistas en el curso, y obteni 
 
 ### HERRAMIENTAS RELACIONADAS
 * S.O. UBUNTU 20.04
