@@ -128,7 +128,7 @@ Dirección web entrar en Kibana
 Como propuesta de pruebas para evaluar el rendimiento de ambas tecnologías, se dividio en dos tipos:
 
 - Rendimiento medido en tiempos sobre consultas a la base de datos:
-- Interación con el usuario:  
+
 
 ### ENLACES DE INTERES
 
