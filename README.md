@@ -8,7 +8,7 @@ El objetivo del siguiente trabajo es lograr comparar la capacidad de respuesta e
 1. [INTRODUCCION](#INTRODUCCION)
 2. [HERRAMIENTAS RELACIONADAS](#HERRAMIENTAS-RELACIONADAS)
 3. [PASOS PARA LA IMPLEMENTACION](#PASOS-PARA-LA-IMPLEMENTACION)
-4. [EVALUACION Y PROPUESTA](#EVALUACION-Y-PROPUESTA)
+4. [PROPUESTA Y CONCLUSION](#PROPUESTA-Y-CONCLUSION)
 5. [ENLACES DE INTERES](#ENLACES-DE-INTERES)
 
 ### INTRODUCCION
@@ -123,8 +123,12 @@ Dirección web entrar en Kibana
 <img src="Gif's/kibana patron.gif" style="max-width: 50%">
 
 
-### EVALUACION Y PROPUESTA
+### PROPUESTA Y CONCLUSION
 
+Como propuesta de pruebas para evaluar el rendimiento de ambas tecnologías, se dividio en dos tipos:
+
+- Rendimiento medido en tiempos sobre consultas a la base de datos:
+- Interación con el usuario:  
 
 ### ENLACES DE INTERES
 
