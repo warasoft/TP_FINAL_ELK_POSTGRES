@@ -123,12 +123,9 @@ Dirección web entrar en Kibana
 <img src="Gif's/kibana patron.gif" style="max-width: 50%">
 
 
-### PROPUESTA Y CONCLUSION
+### CONCLUSION
 
-Como propuesta de pruebas para evaluar el rendimiento de ambas tecnologías, se dividio en dos tipos:
-
-- Rendimiento medido en tiempos sobre consultas a la base de datos:
-
+Como conlusión se comprobó que la herramienta Stack ELK fue más eficiente en términos de tiempo de respuesta que el gestor de BD PostgreSQL como muestran las imagenes. A su vez, con los datos cargados en memoria, existe una notable mejora en ambos sistemas.
 
 ### ENLACES DE INTERES
 
