@@ -133,7 +133,7 @@ Como conlusión se comprobó que la herramienta Stack ELK fue más eficiente en 
 
 "*- Segunda ejecución de la consulta, con datos en memoria*"
 
-<img src="Gif's/1era ejecucion.gif" style="max-width: 50%">
+<img src="Gif's/2da ejecucion.gif" style="max-width: 50%">
 
 ### ENLACES DE INTERES
 
