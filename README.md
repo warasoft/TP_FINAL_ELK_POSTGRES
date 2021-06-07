@@ -127,7 +127,7 @@ Dirección web entrar en Kibana
 
 Como conlusión se comprobó que la herramienta Stack ELK fue más eficiente en términos de tiempo de respuesta que el gestor de BD PostgreSQL como muestran las imagenes. A su vez, con los datos cargados en memoria, existe una notable mejora en ambos sistemas.
 
-<img src="Gif's/Gif's/1era ejecucion.gif" style="max-width: 50%">
+<img src="Gif's/1era ejecucion.gif" style="max-width: 50%">
 
 ### ENLACES DE INTERES
 
